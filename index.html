@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=referrer content=no-referrer><title>images</title><link href=./static/css/app.431223c36a344da53189a5e9ceed8c51.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.6d417b8a0381a70c2fbc.js></script><script type=text/javascript src=./static/js/vendor.49e97b23b65cbd1cb9a5.js></script><script type=text/javascript src=./static/js/app.863b2f72d70c9acb9eb4.js></script></body></html><style>html {
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name=referrer content=no-referrer><title>images</title><link href=./static/css/app.eee66361e0d8bfdc8a1d811e64d3ad97.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=./static/js/manifest.5d035b52d613334470dd.js></script><script type=text/javascript src=./static/js/vendor.2648e5671515f95732a8.js></script><script type=text/javascript src=./static/js/app.8e153d7498359544f6e2.js></script></body></html><style>html {
   background: radial-gradient(200% 100% at bottom center, #f7f7b6, #e96f92, #1b2947);
   background: radial-gradient(220% 105% at top center, #1b2947 10%, #75517d 40%, #e96f92 65%, #f7f7b6);
   background-attachment: fixed;
@@ -8,4 +8,24 @@
 body {
   margin: 0;
   padding: 0;
+}
+
+@media screen and (orientation:portrait) {
+  html {
+    background: radial-gradient(200% 100% at left center, #f7f7b6, #e96f92, #1b2947);
+    background: radial-gradient(220% 105% at right center, #1b2947 10%, #75517d 40%, #e96f92 65%, #f7f7b6);
+    height: 100vh;
+  }
+
+  body {
+    transform: rotate(90deg);
+    width: 100vh;
+    height:12vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+  }
 }</style>
